@@ -18,7 +18,7 @@
             android:id="@+id/txtId"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.4"
+            android:layout_weight="0.6"
             android:text="@string/id"
             android:textSize="25sp"
             android:layout_marginLeft="3dp"

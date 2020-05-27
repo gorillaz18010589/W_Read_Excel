@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void readExcel() {
         //2.讀取Raw串流街道bufferedReader
-        InputStream inputStream = getResources().openRawResource(R.raw.data);
+        InputStream inputStream = getResources().openRawResource(R.raw.datav2);
         BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(inputStream, Charset.forName("x-windows-950"))
         );
